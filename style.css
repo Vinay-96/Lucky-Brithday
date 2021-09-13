@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+--primary-color: rgb(33, 14, 66);
+--secondary-color:rgb(233, 221, 59);
+font-family: 'Pacifico', cursive;
+}
+body{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+h1{
+  text-align: center;
+}
+.container{
+  width: 50%;
+  margin: auto;
+}
+input, label{
+  display: block;
+}
+input{
+  margin-bottom: .5rem;
+  width: 100%
+}
+#check-number{
+  display: block;
+  margin-top: 1rem;
+  margin: auto;
+  background: transparent;
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  border-width: medium;
+  padding: 0.5rem;
+  border-radius: .2rem;
+}
+#check-number:hover{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.footer{
+   background-color:  var(--secondary-color);
+   display: block;
+   padding: 2rem 1rem;
+   text-align: center;
+   color:var(--primary-color);
+   border-top-right-radius: 1rem;
+   border-top-left-radius: 1rem;
+   
+}
+.footer .link{
+    color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+/* icons */
+.fa {
+    padding: 10px;
+    font-size: 0px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 15%;
+  }
+.fa:hover {
+    background-color:white ;
+  }
+.ticons{
+    display: flex;
+}
