@@ -5,10 +5,10 @@ const outputText = document.querySelector('#output-box');
 
 function compareValue(sum, luckyNumber) {
   if (sum % luckyNumber === 0) {
-    outputText.innerText = "your birthday is lucky..!";
+    outputText.innerText = "your birthday is lucky..! 🤑";
   }
   else {
-    outputText.innerText = "Not that lucky.";
+    outputText.innerText = "Not that lucky. 😟";
   }
 }
 
