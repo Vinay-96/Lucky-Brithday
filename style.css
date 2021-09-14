@@ -43,6 +43,7 @@ input{
 .footer{
    background-color:  var(--secondary-color);
    display: block;
+   bottom: 0%;
    padding: 2rem 1rem;
    text-align: center;
    color:var(--primary-color);
