@@ -41,40 +41,39 @@ input{
   cursor: pointer;
 }
 .footer{
-   background-color:  var(--secondary-color);
-   display: block;
-   bottom: 0%;
-   padding: 2rem 1rem;
-   text-align: center;
-   color:var(--primary-color);
-   border-top-right-radius: 1rem;
-   border-top-left-radius: 1rem;
-   
-}
-.footer .link{
-    color: white;
-}
-.footer .footer-header{
-    font-weight: bold;
-    font-size: large;
-}
-.footer ul{
-    padding-inline-start: 0px;
-}
-
-/* icons */
-.fa {
-    padding: 10px;
-    font-size: 0px;
-    width: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 1rem;
+ }
+ .social-link {
+    padding: 50px 0;
     text-align: center;
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 15%;
   }
-.fa:hover {
-    background-color:white ;
+  .inline-items{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem;
   }
-.ticons{
-    display: flex;
-}
+ .footer .link{
+     color: white;
+ }
+ .footer .footer-header{
+     font-weight: bold;
+     font-size: large;
+ }
+ 
+ /* icons */
+ .fa {
+     padding: 10px;
+     font-size: 0px;
+     width: 15px;
+     text-align: center;
+     text-decoration: none;
+     border: 1px solid white;
+     border-radius: 15%;
+   }
+ .fa:hover {
+     background-color:white ;
+   }
